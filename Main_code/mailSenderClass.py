@@ -39,6 +39,7 @@ if __name__ == "__main__":
     email_subject = "Test Email"
     email_body = "This is a test email sent from Python."
     recipient_email = "recipient_email@example.com"
+    rest_timeOut = 10
 
     # Send the email
     email_sender.send_email(email_subject, email_body, recipient_email)
