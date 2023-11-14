@@ -23,11 +23,11 @@ class CSVHandler(FileSystemEventHandler):
                     # CSV file has been modified
                     new_values = current_state[self.column_to_watch].values
                     print(f"Change detected in {self.column_to_watch} column. New values: {new_values}")
-                    self.driverCode("my_reviews.csv")
+                    self.driverCode("C://Users//ekagh//OneDrive//Desktop//sentiment_analysis_project//Main_code//my_reviews.csv")
             else:
                 # This is the initial check, print information about the initial state
                 print(f"Initial state: {current_state[self.column_to_watch].values}")
-                self.driverCode("my_reviews.csv")
+                self.driverCode("C://Users//ekagh//OneDrive//Desktop//sentiment_analysis_project//Main_code//my_reviews.csv")
 
             self.last_state = current_state
 
@@ -72,7 +72,7 @@ class CSVHandler(FileSystemEventHandler):
 def observe_csv_changes(csv_path, column_to_watch, interval=3):
     event_handler = CSVHandler(csv_path, column_to_watch)
     observer = Observer()
-    observer.schedule(event_handler, path='.', recursive=False)
+    observer.schedule(event_handler, path='.', recursive=True)
     observer.start()
 
     try:
@@ -84,6 +84,6 @@ def observe_csv_changes(csv_path, column_to_watch, interval=3):
     observer.join()
 
 if __name__ == "__main__":
-    csv_path = "C://Users//ekagh//OneDrive//Desktop//python_practice//my_reviews.csv"
+    csv_path = "C://Users//ekagh//OneDrive//Desktop//sentiment_analysis_project//Main_code//my_reviews.csv"
     column_to_watch = "comments"
     observe_csv_changes(csv_path, column_to_watch)
