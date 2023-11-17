@@ -114,7 +114,7 @@ Step 3)
 
 
 
-## Screenshots For Running Via Terminal
+## Screenshots For Running Via GUI
 
 ![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(64).png)
 
