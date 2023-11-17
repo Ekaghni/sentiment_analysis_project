@@ -8,7 +8,7 @@ nltk.download('vader_lexicon')
 def getSentimentValue(selected_csv_file):
     
     try:
-        path = "C://Users//ekagh//OneDrive//Desktop//sentiment_api//Ekagni_AI_ML//sentimentAnalysisApi//Sentiment_Project//csv_files//"+selected_csv_file
+        path = "C://Users//ekagh//OneDrive//Desktop//sentiment_analysis_project//sentiment_api//Ekagni_AI_ML//sentimentAnalysisApi//Sentiment_Project//csv_files//"+selected_csv_file
         with open(path, mode='r') as file:
             reader = csv.DictReader(file)
             column_name = "comments"
@@ -36,7 +36,7 @@ def getSentimentValue(selected_csv_file):
 
 
 def createNewBrand(brand_name):
-    directory_path = "C://Users//ekagh//OneDrive//Desktop//sentiment_api//Ekagni_AI_ML//sentimentAnalysisApi//Sentiment_Project//csv_files"
+    directory_path = "C://Users//ekagh//OneDrive//Desktop//sentiment_analysis_project//sentiment_api//Ekagni_AI_ML//sentimentAnalysisApi//Sentiment_Project//csv_files"
     brand_name = brand_name + ".csv"
     csv_file_path = os.path.join(directory_path, brand_name)
     with open(csv_file_path, mode='w', newline='') as file:
@@ -51,7 +51,7 @@ def add_data_to_csv(selected_csv_file, id_value, comments_value):
     data = {"id": id_value, "comments": comments_value}
     print("Goinggggggggggg innnnnn add data")
     try:
-        path = "C://Users//ekagh//OneDrive//Desktop//sentiment_api//Ekagni_AI_ML//sentimentAnalysisApi//Sentiment_Project//csv_files//"+selected_csv_file
+        path = "C://Users//ekagh//OneDrive//Desktop//sentiment_analysis_project//sentiment_api//Ekagni_AI_ML//sentimentAnalysisApi//Sentiment_Project//csv_files//"+selected_csv_file
         with open(path, mode='a', newline='') as file:
             writer = csv.DictWriter(file, fieldnames=fieldnames)
             if file.tell() == 0:
