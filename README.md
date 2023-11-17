@@ -48,7 +48,7 @@ Step 3)
 
   Step 6) Run nltk_trial.py
 ```
-## Screenshots
+## Screenshots For Running Via Terminal
 
 ![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(58).png)
 
@@ -57,6 +57,10 @@ Step 3)
 ![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(60).png)
 
 ![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(61).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(62).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(63).png)
 
 
 
@@ -71,6 +75,28 @@ Step 3)
 
   Step 3) Run gui_v2.py
 ```
+## Screenshots For Running Via Terminal
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(64).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(65).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(66).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(67).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(68).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(69).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(70).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(71).png)
+
+
+
+
+
 ## Running API Locally
 
 
@@ -110,3 +136,19 @@ Step 3)
 
   Step 4) You will get a temporary endpoint link from cloudflared and through this link you can access the api from anywhere around the world
 ```
+## Screenshots For Running Via API
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(72).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(73).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(74).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(75).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(76).png)
+
+
+
+
+
