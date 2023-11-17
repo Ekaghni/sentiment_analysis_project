@@ -26,20 +26,17 @@ class EmailSender:
 
         print("Email sent successfully!")
 
-# Example usage:
+
 if __name__ == "__main__":
-    # Replace with your own email and app password
+    
     sender_username = "your_email@gmail.com"
     sender_password = "your_app_password"
 
-    # Create an instance of EmailSender
     email_sender = EmailSender(sender_username, sender_password)
 
-    # Specify email details
     email_subject = "Test Email"
     email_body = "This is a test email sent from Python."
     recipient_email = "recipient_email@example.com"
     rest_timeOut = 10
 
-    # Send the email
     email_sender.send_email(email_subject, email_body, recipient_email)

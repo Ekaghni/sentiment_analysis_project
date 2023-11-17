@@ -75,7 +75,7 @@ Step 3)
 
   Step 3) Run gui_v2.py
 ```
-## Screenshots For Running Via Terminal
+## Screenshots For Running Via GUI
 
 ![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(64).png)
 
