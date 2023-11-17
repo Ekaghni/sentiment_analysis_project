@@ -48,6 +48,20 @@ Step 3)
 
   Step 6) Run nltk_trial.py
 ```
+## Screenshots
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(58).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(59).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(60).png)
+
+![App Screenshot](https://github.com/Ekaghni/sentiment_analysis_project/blob/main/Screenshots/Screenshot%20(61).png)
+
+
+
+
+
 ## Running Via Gui
 
 ```bash
