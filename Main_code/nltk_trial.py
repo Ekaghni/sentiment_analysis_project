@@ -156,7 +156,7 @@ def compare_roberta_vader_sentiments():
             'roberta_pos' : scores[2]
         }
         roberta_results.append(scores_dict)
-    # Extracting sentiments for each model
+    
     vader_neg = [result['neg'] for result in vader_results]
     vader_neu = [result['neu'] for result in vader_results]
     vader_pos = [result['pos'] for result in vader_results]
@@ -164,21 +164,13 @@ def compare_roberta_vader_sentiments():
     roberta_neg = [result['roberta_neg'] for result in roberta_results]
     roberta_neu = [result['roberta_neu'] for result in roberta_results]
     roberta_pos = [result['roberta_pos'] for result in roberta_results]
-
-    # Plotting the results
     fig, axs = plt.subplots(2, 3, figsize=(15, 8))
-
-    # Plotting Vader Sentiments
     axs[0, 0].hist(vader_neg, bins=20, color='red', alpha=0.7, label='Vader Negative')
     axs[0, 1].hist(vader_neu, bins=20, color='green', alpha=0.7, label='Vader Neutral')
     axs[0, 2].hist(vader_pos, bins=20, color='blue', alpha=0.7, label='Vader Positive')
-
-    # Plotting Roberta Sentiments
     axs[1, 0].hist(roberta_neg, bins=20, color='red', alpha=0.7, label='Roberta Negative')
     axs[1, 1].hist(roberta_neu, bins=20, color='green', alpha=0.7, label='Roberta Neutral')
     axs[1, 2].hist(roberta_pos, bins=20, color='blue', alpha=0.7, label='Roberta Positive')
-
-    # Adding labels and legends
     axs[0, 0].set_title('Vader Negative Sentiment')
     axs[0, 1].set_title('Vader Neutral Sentiment')
     axs[0, 2].set_title('Vader Positive Sentiment')
@@ -190,8 +182,6 @@ def compare_roberta_vader_sentiments():
     for ax in axs.flat:
         ax.set(xlabel='Sentiment Score', ylabel='Frequency')
         ax.legend()
-
-    # Adjusting layout
     plt.tight_layout()
     plt.show()
 
